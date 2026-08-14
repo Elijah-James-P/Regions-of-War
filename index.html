@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Archive | A Nation-Building Chronicle</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Regions of War</h1>
+        <p>A chronicle of nations, wars, and the friends who built them</p>
+
+        <nav>
+            <a href="#intro">Home</a>
+            <a href="#" class="modal-trigger" data-modal="nations">Nations</a>
+            <a href="#" class="modal-trigger" data-modal="history">History</a>
+            <a href="#" class="modal-trigger" data-modal="gallery">Gallery</a>
+        </nav>
+    </header>
+
+    <div class="intro-columns">
+        <section id="intro">
+            <h2>What Was This?</h2>
+            <p>
+                Regions of War was more than just a mere game, it was an entire world built on
+                the collective minds of creative, optimistic, and power-hungry teenagers
+                eager to leave their mark on the fictional planet of Gaeia. There was no script, no set
+                timeline. Just diplomacy, rivalry, alliances, and the stories they made
+                together.
+            </p>
+            <p>
+                This site exists to preserve that history: the nations, the wars, the
+                lore, and the moments that made it unforgettable.
+            </p>
+        </section>
+
+        <section id="who">
+            <h2>Who Was This?</h2>
+            <p>
+                The first iteration of Regions of War all started with a guy named Ivan, taking inspiration
+				inspiration from a popular global online game. At first, there was only Kent, Rey, Ken, and 
+				Cian alongside Ivan. As the first version of RoW blew up in popularity and eventually ended,
+				the playerbase wanted more. Hence RoW: Rekindled Flame was created, bringing in players previously
+				usually offline to contribute more greatly such as Sirius, Serrano, and Rayce. 
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Built with love, for the nations and the friends who ran them.</p>
+    </footer>
+
+    <div class="modal-overlay" id="modal-nations">
+        <div class="modal-box">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <h2>The Nations</h2>
+            <div class="nation-card">
+                <h3>Carmine Empire (The Fucking Queen and Kings of History)</h3>
+                <p>First nation to have recognizable guns therefore the greatest nation in history.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-history">
+        <div class="modal-box">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <h2>The History</h2>
+            <ul>
+                <li>Event one — Carmine Empire officially recognized.</li>
+                <li>Event two — Carmine Empire continues to be GOATed.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-gallery">
+        <div class="modal-box">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <h2>Gallery</h2>
+            <p>Maps, flags, and images from across the game's history will appear here.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
