@@ -82,6 +82,36 @@ nav a:hover {
     border-color: var(--seal-red);
 }
 
+.gold-corners {
+    position: relative;
+}
+
+.gold-corners::before,
+.gold-corners::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-size: 22px 3px, 3px 22px, 22px 3px, 3px 22px;
+    background-image:
+        linear-gradient(var(--brass), var(--brass)),
+        linear-gradient(var(--brass), var(--brass)),
+        linear-gradient(var(--brass), var(--brass)),
+        linear-gradient(var(--brass), var(--brass));
+}
+
+.gold-corners::before {
+    background-position: top left, top left, top right, top right;
+}
+
+.gold-corners::after {
+    background-position: bottom left, bottom left, bottom right, bottom right;
+}
+
 section {
     max-width: 700px;
     margin: 2.5rem auto;
