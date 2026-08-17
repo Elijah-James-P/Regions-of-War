@@ -289,3 +289,20 @@ footer {
 .modal-close:hover {
     color: var(--seal-red);
 }
+
+.modal-subheading {
+    font-family: var(--font-stamp);
+    font-size: 0.85rem;
+    color: var(--seal-red);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--brass);
+}
+
+.modal-subheading:first-of-type {
+    margin-top: 0;
+}
