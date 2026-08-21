@@ -171,6 +171,7 @@ section p {
     margin-top: 1.5rem;
     box-shadow: 3px 3px 0 rgba(43, 32, 21, 0.15);
     transition: transform 0.2s ease;
+    cursor: pointer;
 }
 
 .nation-card:hover {
@@ -274,6 +275,11 @@ footer {
     text-align: center;
 }
 
+.modal-box > p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
 .modal-close {
     position: absolute;
     top: 0.6rem;
@@ -298,9 +304,9 @@ footer {
     letter-spacing: 0.15em;
     text-align: center;
     margin-top: 2rem;
-    margin-bottom: 0.5rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--brass);
+    margin-bottom: 1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--brass);
 }
 
 .modal-subheading:first-of-type {
